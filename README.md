@@ -4,7 +4,7 @@
 
 Course name:
 "Divide and Conquer, Sorting and Searching, and Randomized Algorithms by Stanford University".
-Find it here: [link](https://www.coursera.org/learn/algorithms-divide-conquer).
+The course can be found here: [link](https://www.coursera.org/learn/algorithms-divide-conquer).
 
 ## Description
 
