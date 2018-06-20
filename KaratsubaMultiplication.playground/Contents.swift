@@ -1,5 +1,7 @@
 import Foundation
 
+// MARK: - Extensions
+
 extension Int {
     var array: [Int] {
         return String(self).compactMap{ Int(String($0)) }
@@ -21,6 +23,8 @@ extension Double {
         return String(self).compactMap{ Int(String($0)) }
     }
 }
+
+// MARK: - Helper methods
 
 func power(of number: Int, times: Int) -> Int {
     let powerOfNumber = pow(Double(number), Double(times))
@@ -139,6 +143,8 @@ func splitIntoTwoPartsString(number: String) -> (String, String) {
     let second = String(secondHalf)
     return (first, second)
 }
+
+// MARK: - Karatsuba Algorithm Implementation
 
 /// WARNING: for now works only for numbers with digits quantity which is a power of 2.
 /// The task required to multiply 2 numbers with 64 digits each.

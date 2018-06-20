@@ -1,5 +1,5 @@
 
-let unsortedArray = [14, 33, 27, 10, 35, 19, 42, 44]
+// MARK: - Supporting methods
 
 func split(array: [Int]) -> ([Int], [Int]) {
     let midpoint = array.count / 2
@@ -39,6 +39,8 @@ func merge(inputFirstArray: [Int], inputSecondArray: [Int]) -> [Int] {
     return sortedArray
 }
 
+// MARK: - Merge Sort Algorithm Implementation
+
 func mergeSorted(array: [Int]) -> [Int] {
     guard !array.isEmpty && array.count > 1
         else { return array }
@@ -54,6 +56,8 @@ func mergeSorted(array: [Int]) -> [Int] {
 
     return mergedSortedArray
 }
+
+// MARK: - Tests
 
 func testMergeSort(array: [Int]) {
     print("----")
@@ -72,21 +76,8 @@ func testMergeSort(array: [Int]) {
     print("----")
 }
 
-testMergeSort(array: unsortedArray)
+testMergeSort(array: [14, 33, 27, 10, 35, 19, 42, 44])
 testMergeSort(array: [1])
-testMergeSort(array: [1, 543, 23, 3,2 ,3, 224, 34,265,645,3,4232,4232,434,53,53,53,3,4221,23,24,3554,654,6345])
-testMergeSort(array: [1, 543, 23, 3,2 ,3, 224,234,234,56,87,22342324,4234,453577,6,53,3421,34,57,23434,56565,8,722672,573,53,56,453545765,23,32,3435,6,78,8778,8,8983,4,568756213,4654899,54644423245,234,23,25,436423,68765,647876,43, 34,265,645,3,4232,4232,434,53,53,53,3,4221,23,24,3554,654,6345, 1,1,1,11,1,1,1,11,1,1,1,11,1,1,])
+testMergeSort(array: [1, 543, 23, 3,2 ,3, 224, 34, 53, 265, 645, 3, 4232, 4232, 434, 53, 53, 53, 3, 4221, 23, 24, 3554, 654, 6345])
+testMergeSort(array: [1, 543, 23, 3, 2 ,3, 224, 234, 234, 56, 87, 22342324, 4234, 453577, 6, 53, 3421, 34, 57, 23434, 56565, 8, 722672, 573, 53, 56, 453545765, 23, 32, 3435, 6, 78, 8778, 8, 8983, 4, 568756213, 4654899, 54644423245, 234, 23, 25, 436423, 68765, 647876, 43, 34, 265, 645, 3, 4232, 4232, 434, 53, 53, 53, 3, 4221, 23, 24, 3554, 654, 6345, 1, 1, 1, 11, 1, 1, 1, 11, 1, 1, 1, 11, 1, 1])
 
-let str = "123"
-print(str[str.index(str.startIndex, offsetBy: 2)])
-
-
-
-//print(merge(inputFirstArray: [Int](), inputSecondArray: [1]))
-//print(merge(inputFirstArray: [2], inputSecondArray: [1]))
-//print(merge(inputFirstArray: [2], inputSecondArray: [1, 3]))
-//print(merge(inputFirstArray: [2], inputSecondArray: [1, 6]))
-//print(merge(inputFirstArray: [2], inputSecondArray: [1, 1]))
-//print(merge(inputFirstArray: [1, 2, 3], inputSecondArray: [1]))
-//print(merge(inputFirstArray: [2, 4, 6, 8, 10, 14], inputSecondArray: [1, 3, 5, 7, 9, 11, 13]))
-//print(merge(inputFirstArray: [2, 4, 6, 7, 10, 14], inputSecondArray: [1, 3, 5, 7, 9, 11, 13]))
