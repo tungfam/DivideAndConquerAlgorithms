@@ -1,16 +1,16 @@
-# Algorithms (Stanford, Coursera)
+# Algorithms (Stanford, Coursera) 🏫
 
-## About
+## About 🎓
 
 Course name:
 "Divide and Conquer, Sorting and Searching, and Randomized Algorithms by Stanford University".
 The course can be found here: [link](https://www.coursera.org/learn/algorithms-divide-conquer).
 
-## Description
+## Description 📚
 
 The repository contains implementations of algorithms that are learned during the course using Swift.
 
-## Contents
+## Contents 📝
 
 ### Week 1
 1. Karatsuba Multiplication (using strings). Go to [code][1].
