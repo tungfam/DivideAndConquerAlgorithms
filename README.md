@@ -13,8 +13,13 @@ The repository contains implementations of algorithms that are learned during th
 ## Contents
 
 ### Week 1
-1. Karatsuba Multiplication (using strings). Code [here][1].
-2. Merge Sort
-3. School grade multiplication
+1. Karatsuba Multiplication (using strings). Go to [code][1].
+2. Merge Sort. Go to [code][2].
+3. School grade multiplication. Go to [code][3].
 
-[1]: https://github.com/tungfam/DivideAndConquerAlgorithms/blob/master/Week%201%20(Merge%20Sort%2C%20Karatsuba)/MergeSortAlgo.playground/Contents.swift
+[1]:
+https://github.com/tungfam/DivideAndConquerAlgorithms/blob/master/Week%201%20(Merge%20Sort%2C%20Karatsuba)/KaratsubaMultiplication.playground/Contents.swift
+[2]:
+https://github.com/tungfam/DivideAndConquerAlgorithms/blob/master/Week%201%20(Merge%20Sort%2C%20Karatsuba)/MergeSortAlgo.playground/Contents.swift
+[3]:
+https://github.com/tungfam/DivideAndConquerAlgorithms/blob/master/Week%201%20(Merge%20Sort%2C%20Karatsuba)/SchoolIntegerMultiplication.playground/Contents.swift
