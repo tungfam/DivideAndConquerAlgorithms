@@ -1,5 +1,7 @@
 # Programming Assignment #2
 
+Go to [code][1].
+
 Download the file with array of integers. Named "PA_file.txt" in this project.
 
 This file contains all of the 100,000 integers between 1 and 100,000 (inclusive) in some order, with no integer repeated.
@@ -15,3 +17,6 @@ So if your answer is 1198233847, then just type 1198233847 in the space provided
 (We do not require you to submit your code, so feel free to use any programming language you want --- just type the final numeric answer in the following space.)
 
 [TIP: before submitting, first test the correctness of your program on some small test files or your own devising. Then post your best test cases to the discussion forums to help your fellow students!]
+
+[1]:
+https://github.com/tungfam/DivideAndConquerAlgorithms/blob/master/Week%202%20(Count%20inversions%20in%20array)/CalculateArrayInversions/CalculateArrayInversions/ViewController.swift
